@@ -49,10 +49,11 @@ DISCLAIMER_SHORT = "Not tax advice. Consult a qualified professional."
 # "Bots must clearly disclose to users that they are engaging with a bot."
 REDDIT_BOT_DISCLOSURE = (
     "\n\n---\n"
-    "^(I am a bot created by NexoraFuture. "
-    "This response was generated automatically. "
-    "Not tax advice - consult a qualified professional. "
-    "| )[^(About)](https://nexorafuture.co.uk)"
+    "^(Hi! I'm a bot by )[^(NexoraFuture)](https://nexorafuture.co.uk) "
+    "^(— we're building simple tools for UK sole traders. "
+    "This reply was auto-generated but the info is researched and reviewed. "
+    "Not tax advice - always consult a qualified professional. "
+    "Feedback welcome!)"
 )
 
 # ============================================================
