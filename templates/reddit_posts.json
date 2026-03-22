@@ -1,0 +1,50 @@
+{
+  "educational": [
+    {
+      "title": "PSA: Making Tax Digital goes live April 6 - here's what UK sole traders need to know",
+      "body": "Hey everyone,\n\nWith MTD for Income Tax starting on April 6, I wanted to share a quick summary for anyone who's still getting their head around it.\n\n**What's changing:**\n- Sole traders and landlords above the income threshold must keep digital records\n- You'll submit quarterly updates to HMRC (not just the annual return)\n- You need to use MTD-compatible software\n\n**The quarterly periods:**\n- Q1: 6 April - 5 July\n- Q2: 6 July - 5 October\n- Q3: 6 October - 5 January\n- Q4: 6 January - 5 April\n\n**What you need to do NOW:**\n1. Make sure you have a digital system for tracking income and expenses\n2. Familiarise yourself with HMRC's 16 expense categories\n3. Set up calendar reminders for submission deadlines\n4. Check your software is MTD-compatible\n\nThe good news: the amount of tax you pay doesn't change. It's just the reporting that's different.\n\nHappy to answer any questions if anyone's confused about any of this.\n\n*Disclaimer: This is general information only, not tax advice. Always consult a qualified tax professional for your specific situation.*",
+      "subreddits": ["SelfEmployedUK", "freelanceUK", "smallbusinessuk"],
+      "flair": null
+    },
+    {
+      "title": "Guide: HMRC's 16 expense categories for sole traders explained simply",
+      "body": "I've seen a lot of confusion about what expenses you can actually claim as a sole trader, especially with MTD coming in. Here's a plain-English breakdown of HMRC's 16 categories:\n\n1. **Office, property and equipment** - desk, chair, computer, printer\n2. **Car, van and travel** - fuel, parking, train tickets, mileage\n3. **Clothing** - work uniforms, safety gear (NOT everyday clothes)\n4. **Staff costs** - salaries, subcontractor payments\n5. **Things you buy to resell** - stock, raw materials\n6. **Financial costs** - bank charges, credit card fees, loan interest\n7. **Business premises costs** - rent, rates, utilities, insurance\n8. **Advertising and marketing** - website, social media ads, business cards\n9. **Interest on bank and other loans** - business loan interest\n10. **Bank, credit card and financial charges** - transaction fees\n11. **Irrecoverable debts** - bad debts you can't collect\n12. **Accountancy, legal and other professional fees** - accountant, solicitor\n13. **Depreciation and loss on sale of assets** - value decrease of equipment\n14. **Other business expenses** - subscriptions, postage, stationery\n15. **Cost of goods for personal use** - if you take stock for yourself\n16. **Capital allowances** - larger equipment purchases\n\n**Pro tips:**\n- Categorise expenses as you go, not at year end\n- Keep digital copies of all receipts\n- If you work from home, you can claim a proportion of household bills\n- The simplified expenses flat rate for home working is often easier\n\nHope this helps someone. Happy to clarify any of these.\n\n*Not tax advice - consult a professional for your specific situation.*",
+      "subreddits": ["SelfEmployedUK", "freelanceUK"],
+      "flair": null
+    },
+    {
+      "title": "Sole traders: What's your system for tracking expenses throughout the year?",
+      "body": "Genuinely curious what systems people are using.\n\nI've been freelancing for a while and have tried everything from shoeboxes of receipts (terrible) to spreadsheets (okay but easy to fall behind) to various apps.\n\nWith MTD requiring quarterly submissions from April, having a consistent system matters more than ever.\n\nWhat's working for you? Do you:\n- Use accounting software (Xero, FreeAgent, QuickBooks)?\n- Track in spreadsheets?\n- Use Notion or similar?\n- Something else entirely?\n\nAlso interested in how much time you spend on it per week. I'm trying to get mine down to under 15 minutes.",
+      "subreddits": ["SelfEmployedUK", "freelanceUK", "smallbusinessuk", "Entrepreneur"],
+      "flair": null
+    }
+  ],
+  "discussion": [
+    {
+      "title": "What tools are you using for MTD compliance?",
+      "body": "April 6 is getting close and I'm still evaluating options for MTD-compatible tracking.\n\nThere seem to be a lot of choices ranging from free to quite expensive. Some are full accounting suites which feel like overkill for a sole trader.\n\nWhat's everyone planning to use? Any recommendations for something simple and affordable that does what's needed without all the enterprise features?\n\nInterested in hearing real experiences, not just marketing.",
+      "subreddits": ["SelfEmployedUK", "freelanceUK", "HMRC"],
+      "flair": null
+    },
+    {
+      "title": "How do you organise your freelance finances without it taking over your life?",
+      "body": "I got into freelancing for the freedom, but sometimes the admin feels like a full-time job.\n\nBetween tracking expenses, sending invoices, chasing payments, and keeping HMRC happy, it can feel like I spend more time on paperwork than actual work.\n\nAnyone found a good balance? Tips for keeping the admin under control?\n\nParticularly interested in:\n- How much time you spend on finances per week\n- What you've automated\n- What you wish you'd known earlier",
+      "subreddits": ["freelanceUK", "Entrepreneur", "productivity"],
+      "flair": null
+    },
+    {
+      "title": "Building tools for UK sole traders - what would actually help you?",
+      "body": "I'm working on building digital tools aimed at making life easier for UK freelancers and sole traders.\n\nRather than guessing what people need, I'd love to hear directly:\n\n- What's the most annoying part of running your business admin?\n- What tools are you paying too much for?\n- What do you wish existed but doesn't?\n- If you could automate one thing, what would it be?\n\nGenuinely interested in feedback, not selling anything. Just trying to build things people actually want.\n\nThanks in advance.",
+      "subreddits": ["SelfEmployedUK", "freelanceUK", "Entrepreneur", "startups"],
+      "flair": null
+    }
+  ],
+  "build_in_public": [
+    {
+      "title": "I'm building a platform for UK freelancers - here's what I've learned so far",
+      "body": "Hey everyone,\n\nI've been building NexoraFuture - a platform aimed at making business operations simpler for UK sole traders and freelancers.\n\nStarted because I was frustrated with how complex and expensive most compliance tools are.\n\nSome things I've learned:\n\n1. **Most freelancers don't want an accounting suite.** They want something simple that tracks what they need and tells them when deadlines are.\n\n2. **MTD is causing real anxiety.** A lot of people don't understand what's required and are worried about getting it wrong.\n\n3. **Price matters.** When you're a sole trader, every subscription adds up. People want one-time costs, not monthly fees.\n\n4. **Trust takes time.** Nobody wants to trust their tax compliance to an unknown tool. You have to earn it.\n\nStill early days but learning a lot. Happy to answer any questions about what we're building or the journey so far.\n\n*This isn't a sales post - just sharing the experience of building something in this space.*",
+      "subreddits": ["Entrepreneur", "startups", "SelfEmployedUK"],
+      "flair": null
+    }
+  ]
+}

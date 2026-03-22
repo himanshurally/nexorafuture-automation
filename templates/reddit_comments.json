@@ -1,0 +1,52 @@
+{
+  "mtd_general": [
+    {
+      "keywords": ["MTD", "Making Tax Digital", "HMRC quarterly"],
+      "comment": "MTD basically means you'll need to keep digital records of your income and expenses and submit quarterly updates to HMRC instead of just doing one annual self-assessment.\n\nThe key changes:\n- You need to use compatible software (not just paper records)\n- Submit quarterly updates (Q1: Apr-Jul, Q2: Jul-Oct, Q3: Oct-Jan, Q4: Jan-Apr)\n- File an end-of-period statement and final declaration\n\nIt starts April 6 for sole traders and landlords with income above the threshold. The actual amount of tax you pay doesn't change - just how you report it.\n\nHonestly, if you set up a good system now, it's about 15 minutes per quarter once you're in the habit."
+    },
+    {
+      "keywords": ["MTD", "Making Tax Digital", "what do I need"],
+      "comment": "For MTD you essentially need three things:\n\n1. A way to digitally record all your business transactions (income and expenses)\n2. Software that can submit quarterly updates to HMRC via their API\n3. The discipline to actually do it quarterly instead of leaving it all to January\n\nThe good news is you don't need expensive software. There are options at every price point. The important thing is to pick something and start using it consistently.\n\nThe biggest mistake I see people make is waiting until the deadline to set everything up. Start now while there's no pressure."
+    },
+    {
+      "keywords": ["MTD", "deadline", "when"],
+      "comment": "MTD for Income Tax Self Assessment starts April 6, 2026 for sole traders and landlords with qualifying income above the threshold.\n\nYour first quarterly period would be April 6 - July 5, and you'd need to submit that update by the following month.\n\nI'd recommend getting your tracking system set up before April 6 so you're ready to go from day one. Much less stressful than trying to backfill records later."
+    }
+  ],
+  "expense_tracking": [
+    {
+      "keywords": ["expense", "tracking", "categories", "HMRC"],
+      "comment": "HMRC has 16 specific expense categories for sole traders. The main ones most people use:\n\n- Office, property and equipment costs\n- Car, van and travel expenses\n- Clothing expenses (must be work-specific)\n- Staff costs\n- Things you buy to resell or use in your work\n- Financial costs (bank charges, interest)\n- Costs of your business premises\n- Advertising and marketing\n- Professional fees\n\nThe key is to categorise as you go rather than leaving it all to the end. Even 5 minutes a week saves hours later.\n\nAlso make sure you're claiming everything you're entitled to - most freelancers I know miss at least a few legitimate deductions."
+    },
+    {
+      "keywords": ["expense", "claim", "deduct", "freelance"],
+      "comment": "Some commonly missed expenses UK freelancers can claim:\n\n- Proportion of home bills if you work from home (heating, electric, broadband)\n- Professional subscriptions and memberships\n- Training and CPD courses related to your work\n- Phone bills (business percentage)\n- Bank charges and fees\n- Stationery and computer consumables\n- Software subscriptions used for work\n\nKeep receipts/records for everything. HMRC can ask for evidence going back several years.\n\nThe simplified expenses method for working from home is also worth looking into - you can claim a flat rate based on hours worked rather than calculating actual proportions."
+    }
+  ],
+  "tax_general": [
+    {
+      "keywords": ["tax", "sole trader", "how much", "set aside"],
+      "comment": "General rule of thumb for UK sole traders: set aside 25-30% of your profit (not revenue) for tax.\n\nBreaking it down:\n- Income tax: 20% on profits between the personal allowance and the basic rate threshold\n- National Insurance Class 2: small flat rate\n- National Insurance Class 4: 6% on profits in the basic rate band\n\nThe catch that gets most new sole traders: your first tax bill often includes 'payments on account' for the following year, so it can be roughly 150% of what you expect.\n\nI'd recommend setting up a separate savings account and transferring a percentage of every payment you receive. Much less painful than finding a lump sum in January."
+    },
+    {
+      "keywords": ["self assessment", "tax return", "first time"],
+      "comment": "Some tips for your first self-assessment:\n\n1. Register with HMRC as self-employed as soon as possible (you need your UTR number)\n2. Keep ALL receipts and records from day one\n3. Separate business and personal bank accounts - makes life so much easier\n4. Set aside 25-30% of profits for tax\n5. Don't forget about payments on account in your first year\n6. Consider the trading allowance if your income is small\n\nThe actual filing process is straightforward once you have all your numbers. It's the record-keeping throughout the year that matters most.\n\nGood luck with it - it gets much easier after the first year."
+    }
+  ],
+  "freelance_tools": [
+    {
+      "keywords": ["tools", "freelance", "organise", "organize", "system"],
+      "comment": "What's worked for me as a freelancer:\n\n- Separate bank account for business (absolute must)\n- A simple tracking system for income and expenses\n- Calendar reminders for tax deadlines\n- A tax reserve pot where I move 30% of every invoice\n\nYou don't need to overcomplicate it. The best system is the one you'll actually use consistently.\n\nThe key insight is: spend 15 minutes a week on your finances and you'll never have that January panic. It's the people who ignore it for 11 months that have problems."
+    },
+    {
+      "keywords": ["notion", "template", "tracking", "business"],
+      "comment": "Notion can be really good for business tracking if you set it up right. The key is having:\n\n- An income log with client, amount, date, and payment status\n- An expense log with amount, category, and receipt reference\n- A dashboard that shows your quarterly totals\n- Deadline reminders for tax submissions\n\nThe benefit over spreadsheets is that everything's in one place and you can build views that show you exactly what you need at any given time.\n\nJust make sure whatever you use is MTD-compatible if you need to submit quarterly updates to HMRC from April."
+    }
+  ],
+  "productivity_general": [
+    {
+      "keywords": ["productivity", "automation", "workflow", "efficiency"],
+      "comment": "The best productivity advice I've found for running a small business:\n\n1. Batch similar tasks (do all invoicing on one day, all admin on another)\n2. Automate anything you do more than twice a week\n3. Set up templates for recurring work\n4. Review your processes quarterly - what's taking too long?\n\nMost freelancers spend 20-30% of their time on admin. Getting that down to 10% means more time earning or more time off. Both are good."
+    }
+  ]
+}
