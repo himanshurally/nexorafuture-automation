@@ -62,9 +62,10 @@ Examples:
     parser.add_argument("--generate", action="store_true", help="Generate all content for today")
 
     # Twitter
-    parser.add_argument("--tweet", action="store_true", help="Post a single tweet")
-    parser.add_argument("--tweet-batch", action="store_true", help="Post all daily tweets")
+    parser.add_argument("--tweet", action="store_true", help="Generate a tweet and copy to clipboard")
+    parser.add_argument("--tweet-batch", action="store_true", help="Generate all daily tweets")
     parser.add_argument("--tweet-preview", action="store_true", help="Preview tweets")
+    parser.add_argument("--tweet-copy", type=int, metavar="N", help="Copy tweet N to clipboard")
     parser.add_argument("--tweet-category", type=str, help="Tweet category")
 
     # Reddit
@@ -111,6 +112,9 @@ Examples:
         run_scheduler()
 
     # Twitter commands
+    elif args.tweet_copy:
+        from platforms.twitter_bot import copy_tweet_by_number
+        copy_tweet_by_number(args.tweet_copy)
     elif args.tweet:
         from platforms.twitter_bot import post_tweet
         post_tweet(category=args.tweet_category)
