@@ -40,6 +40,13 @@ def quora_job():
     generate_daily()
 
 
+def email_digest_job():
+    """Send daily digest email."""
+    print(f"\n[{datetime.now().strftime('%H:%M')}] Sending daily digest email...")
+    from platforms.email_sender import send_digest
+    send_digest()
+
+
 def setup_schedule():
     """Configure the daily schedule."""
     # Twitter: post at UK peak times
@@ -54,6 +61,10 @@ def setup_schedule():
     # Quora: generate answers once daily at 9am
     schedule.every().day.at("09:00").do(quora_job)
     print("  Quora generation at 09:00 UTC")
+
+    # Email digest: send every morning at 6:30am UTC (7:30am UK)
+    schedule.every().day.at("06:30").do(email_digest_job)
+    print("  Email digest at 06:30 UTC (7:30am UK)")
 
 
 def run_scheduler():

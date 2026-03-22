@@ -79,6 +79,10 @@ Examples:
     parser.add_argument("--quora-topic", type=str, help="Generate for specific topic")
     parser.add_argument("--quora-topics", action="store_true", help="List available topics")
 
+    # Email
+    parser.add_argument("--send-digest", action="store_true", help="Send daily digest email")
+    parser.add_argument("--digest-to", type=str, help="Override digest recipient email")
+
     args = parser.parse_args()
 
     # If no args, show dashboard
@@ -155,6 +159,12 @@ Examples:
     elif args.quora_topics:
         from platforms.quora_generator import list_topics
         list_topics()
+
+    # Email commands
+    elif args.send_digest:
+        from platforms.email_sender import send_digest
+        recipients = [args.digest_to] if args.digest_to else None
+        send_digest(recipients=recipients)
 
     else:
         parser.print_help()
